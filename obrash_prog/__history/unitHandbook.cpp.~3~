@@ -1,0 +1,19 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "unitHandbook.h"
+#include "DataModule.h"
+#include "createHandbook.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TformHandbook *formHandbook;
+//---------------------------------------------------------------------------
+__fastcall TformHandbook::TformHandbook(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+

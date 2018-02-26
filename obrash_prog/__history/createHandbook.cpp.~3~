@@ -1,0 +1,38 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "createHandbook.h"
+#include "DataModule.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TformCreateHandbook *formCreateHandbook;
+//---------------------------------------------------------------------------
+__fastcall TformCreateHandbook::TformCreateHandbook(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TformCreateHandbook::btnCreateHandbookClick(TObject *Sender)
+{
+	DM->adq->Active = false;
+	DM->adq->SQL->Clear();
+	AnsiString sql;
+
+	String name = edtNameHandbook->Text;
+	String n = name;
+	name = StringReplace(name, " ", "_", TReplaceFlags() << rfReplaceAll);
+
+	sql = "create table Справочник_" + name + "(";
+	sql += "Код int not null unique, ";
+	sql += "Название string(30), ";
+	sql += "primary key(Код) );";
+
+	DM->adq->SQL->Add(sql);
+	DM->adq->ExecSQL();
+	ShowMessage("Справочник "+ n + " создан");
+	DM->adq->Active = false;
+}
+//---------------------------------------------------------------------------

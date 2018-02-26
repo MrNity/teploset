@@ -1,0 +1,21 @@
+//---------------------------------------------------------------------------
+
+#ifndef searchAddressesH
+#define searchAddressesH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+//---------------------------------------------------------------------------
+class TformSearchAddresses : public TForm
+{
+__published:	// IDE-managed Components
+private:	// User declarations
+public:		// User declarations
+	__fastcall TformSearchAddresses(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TformSearchAddresses *formSearchAddresses;
+//---------------------------------------------------------------------------
+#endif

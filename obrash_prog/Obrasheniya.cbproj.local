@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018.02.01 09:20:14.359.cpp,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\Unit1.cpp=C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\mainForm.cpp</Transaction>
+    <Transaction>2018.02.01 09:20:14.359.h,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\Unit1.h=C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\mainForm.h</Transaction>
+    <Transaction>2018.02.01 09:20:14.359.dfm,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\Unit1.dfm=C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\mainForm.dfm</Transaction>
+    <Transaction>2018.02.01 09:21:02.234.cpp,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\Unit1.cpp=C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\DataModule.cpp</Transaction>
+    <Transaction>2018.02.01 09:21:02.234.h,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\Unit1.h=C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\DataModule.h</Transaction>
+    <Transaction>2018.02.01 09:21:02.234.dfm,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\Unit1.dfm=C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\DataModule.dfm</Transaction>
+    <Transaction>2018.02.01 09:21:14.203.cpp,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\DataModule.cpp=F:\Нитай\obrash_prog\DataModule.cpp</Transaction>
+    <Transaction>2018.02.01 09:21:14.203.h,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\DataModule.h=F:\Нитай\obrash_prog\DataModule.h</Transaction>
+    <Transaction>2018.02.01 09:21:14.203.dfm,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\DataModule.dfm=F:\Нитай\obrash_prog\DataModule.dfm</Transaction>
+    <Transaction>2018.02.01 09:21:17.687.cpp,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\mainForm.cpp=F:\Нитай\obrash_prog\mainForm.cpp</Transaction>
+    <Transaction>2018.02.01 09:21:17.687.h,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\mainForm.h=F:\Нитай\obrash_prog\mainForm.h</Transaction>
+    <Transaction>2018.02.01 09:21:17.687.dfm,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\mainForm.dfm=F:\Нитай\obrash_prog\mainForm.dfm</Transaction>
+    <Transaction>2018.02.01 09:21:33.109.cbproj,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\Project1.cbproj=C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\Obrasheniya.cbproj</Transaction>
+    <Transaction>2018.02.01 09:21:44.578.cbproj,C:\Documents and Settings\Гость\Мои документы\RAD Studio\Projects\Obrasheniya.cbproj=F:\Нитай\obrash_prog\Obrasheniya.cbproj</Transaction>
+    <Transaction>2018.02.01 09:57:36.984.cpp,F:\Нитай\obrash_prog\Unit1.cpp=F:\Нитай\obrash_prog\InputInformation.cpp</Transaction>
+    <Transaction>2018.02.01 09:57:36.984.h,F:\Нитай\obrash_prog\Unit1.h=F:\Нитай\obrash_prog\InputInformation.h</Transaction>
+    <Transaction>2018.02.01 09:57:36.984.dfm,F:\Нитай\obrash_prog\Unit1.dfm=F:\Нитай\obrash_prog\InputInformation.dfm</Transaction>
+    <Transaction>2018.02.01 10:08:12.406.cpp,F:\Нитай\obrash_prog\Unit1.cpp=F:\Нитай\obrash_prog\unitHandbook.cpp</Transaction>
+    <Transaction>2018.02.01 10:08:12.406.h,F:\Нитай\obrash_prog\Unit1.h=F:\Нитай\obrash_prog\unitHandbook.h</Transaction>
+    <Transaction>2018.02.01 10:08:12.406.dfm,F:\Нитай\obrash_prog\Unit1.dfm=F:\Нитай\obrash_prog\unitHandbook.dfm</Transaction>
+    <Transaction>2018.02.01 11:19:26.828.cpp,F:\Нитай\obrash_prog\Unit1.cpp=F:\Нитай\obrash_prog\createHandbook.cpp</Transaction>
+    <Transaction>2018.02.01 11:19:26.828.h,F:\Нитай\obrash_prog\Unit1.h=F:\Нитай\obrash_prog\createHandbook.h</Transaction>
+    <Transaction>2018.02.01 11:19:26.828.dfm,F:\Нитай\obrash_prog\Unit1.dfm=F:\Нитай\obrash_prog\createHandbook.dfm</Transaction>
+    <Transaction>2018.02.01 11:51:31.078.h,F:\Нитай\obrash_prog\File1.h=F:\Нитай\obrash_prog\Func.h</Transaction>
+    <Transaction>2018.02.01 12:10:49.250.cpp,F:\Нитай\obrash_prog\Unit1.cpp=F:\Нитай\obrash_prog\findAddresses.cpp</Transaction>
+    <Transaction>2018.02.01 12:10:49.250.h,F:\Нитай\obrash_prog\Unit1.h=F:\Нитай\obrash_prog\findAddresses.h</Transaction>
+    <Transaction>2018.02.01 12:10:49.250.dfm,F:\Нитай\obrash_prog\Unit1.dfm=F:\Нитай\obrash_prog\findAddresses.dfm</Transaction>
+    <Transaction>2018.02.01 12:11:09.203.cpp,F:\Нитай\obrash_prog\findAddresses.cpp=F:\Нитай\obrash_prog\searchAddresses.cpp</Transaction>
+    <Transaction>2018.02.01 12:11:09.203.h,F:\Нитай\obrash_prog\findAddresses.h=F:\Нитай\obrash_prog\searchAddresses.h</Transaction>
+    <Transaction>2018.02.01 12:11:09.203.dfm,F:\Нитай\obrash_prog\findAddresses.dfm=F:\Нитай\obrash_prog\searchAddresses.dfm</Transaction>
+    <Transaction>2018.02.01 12:11:16.468.cpp,F:\Нитай\obrash_prog\unitHandbook.cpp=F:\Нитай\obrash_prog\Handbook.cpp</Transaction>
+    <Transaction>2018.02.01 12:11:16.468.h,F:\Нитай\obrash_prog\unitHandbook.h=F:\Нитай\obrash_prog\Handbook.h</Transaction>
+    <Transaction>2018.02.01 12:11:16.468.dfm,F:\Нитай\obrash_prog\unitHandbook.dfm=F:\Нитай\obrash_prog\Handbook.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

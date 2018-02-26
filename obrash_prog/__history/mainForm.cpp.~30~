@@ -1,0 +1,68 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "mainForm.h"
+#include "DataModule.h"
+#include "InputInformation.h"
+#include "unitHandbook.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TformMain *formMain;
+//---------------------------------------------------------------------------
+void __fastcall OpenHandbook(String handbook) {
+	String hb = handbook;
+
+	handbook = StringReplace(handbook," ","_",TReplaceFlags() << rfReplaceAll);
+	DM->adtHandbook->Active = false;
+	DM->adtHandbook->TableName = "Справочник_"+handbook;
+	DM->adtHandbook->Active = true;
+
+	int w = 282;
+	int h;
+	h = DM->adtHandbook->RecordCount * 18 + 21;
+
+	formHandbook->lNameHandbook->Caption = "\""+ hb +"\"";
+
+	formHandbook->dbgHandbook->Width = w;
+	formHandbook->dbgHandbook->Height = h;
+
+	formHandbook->Width = w+7;
+	formHandbook->Height = h+103;
+
+	formHandbook->Show();
+}
+//---------------------------------------------------------------------------
+__fastcall TformMain::TformMain(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TformMain::btnHbStreetClick(TObject *Sender)
+{
+	OpenHandbook("Улиц");
+}
+//---------------------------------------------------------------------------
+void __fastcall TformMain::btnHbReceivedClick(TObject *Sender)
+{
+	OpenHandbook("Получено");
+}
+//---------------------------------------------------------------------------
+void __fastcall TformMain::btnHbCategoryApplicantsClick(TObject *Sender)
+{
+	OpenHandbook("Категория заявителя");
+}
+//---------------------------------------------------------------------------
+void __fastcall TformMain::btnHbSenderClick(TObject *Sender)
+{
+	OpenHandbook("Отправитель");
+}
+//---------------------------------------------------------------------------
+void __fastcall TformMain::btnHbContentClick(TObject *Sender)
+{
+	OpenHandbook("Содержание");
+}
+//---------------------------------------------------------------------------
+

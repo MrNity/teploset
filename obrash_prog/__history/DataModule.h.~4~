@@ -1,0 +1,28 @@
+//---------------------------------------------------------------------------
+
+#ifndef DataModuleH
+#define DataModuleH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <ADODB.hpp>
+#include <DB.hpp>
+//---------------------------------------------------------------------------
+class TDM : public TDataModule
+{
+__published:	// IDE-managed Components
+	TADOConnection *adoCon;
+	TADOTable *adtHandbook;
+	TDataSource *dsHandbook;
+	TADOQuery *adq;
+	TDataSource *dsq;
+private:	// User declarations
+public:		// User declarations
+	__fastcall TDM(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TDM *DM;
+//---------------------------------------------------------------------------
+#endif
